@@ -1,0 +1,12 @@
+PODS:
+  - RNCryptor-objc (3.0.2)
+
+DEPENDENCIES:
+  - RNCryptor-objc
+
+SPEC CHECKSUMS:
+  RNCryptor-objc: 6d18b2e4297c8f4a71a295492366313a3245d0ae
+
+PODFILE CHECKSUM: 25c86844f5c3dfec895b66bfc7602d05ecd98b8e
+
+COCOAPODS: 1.1.1

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-FileEncryption_Demo.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-FileEncryption_DemoTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-FileEncryption_DemoUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RNCryptor-objc.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>188230E9C422D25DB4C03A4016515F3D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>951AC29438E7EBA8EC907FD3CDF73460</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DFA56965749441B5C92EF3E71F5F1E42</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E1848C2E9570F628E215BA1AE1C37FA3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

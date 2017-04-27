@@ -1,0 +1,998 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A0DA5CC1EAEE42000FF07D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0DA5CB1EAEE42000FF07D6 /* main.m */; };
+		1A0DA5CF1EAEE42000FF07D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0DA5CE1EAEE42000FF07D6 /* AppDelegate.m */; };
+		1A0DA5D21EAEE42000FF07D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0DA5D11EAEE42000FF07D6 /* ViewController.m */; };
+		1A0DA5D51EAEE42000FF07D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A0DA5D31EAEE42000FF07D6 /* Main.storyboard */; };
+		1A0DA5D71EAEE42000FF07D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A0DA5D61EAEE42000FF07D6 /* Assets.xcassets */; };
+		1A0DA5DA1EAEE42000FF07D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A0DA5D81EAEE42000FF07D6 /* LaunchScreen.storyboard */; };
+		1A0DA5E51EAEE42100FF07D6 /* FileEncryption_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0DA5E41EAEE42100FF07D6 /* FileEncryption_DemoTests.m */; };
+		1A0DA5F01EAEE42100FF07D6 /* FileEncryption_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0DA5EF1EAEE42100FF07D6 /* FileEncryption_DemoUITests.m */; };
+		1A864CA41EB1939200A46DD9 /* default.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1A864CA31EB1939200A46DD9 /* default.jpg */; };
+		1A864D001EB1964300A46DD9 /* AppIcon-076.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A864CE31EB1964300A46DD9 /* AppIcon-076.png */; };
+		1A864D011EB1964300A46DD9 /* AppIcon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A864CE41EB1964300A46DD9 /* AppIcon-120.png */; };
+		1A864D021EB1964300A46DD9 /* AppIcon-152.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A864CE51EB1964300A46DD9 /* AppIcon-152.png */; };
+		1A864D031EB1964300A46DD9 /* AppIcon-167.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A864CE61EB1964300A46DD9 /* AppIcon-167.png */; };
+		1A864D041EB1964300A46DD9 /* AppIcon-180.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A864CE71EB1964300A46DD9 /* AppIcon-180.png */; };
+		1A864D051EB1964300A46DD9 /* Reader-Button-H.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A864CE81EB1964300A46DD9 /* Reader-Button-H.png */; };
+		1A864D061EB1964300A46DD9 /* Reader-Button-H@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A864CE91EB1964300A46DD9 /* Reader-Button-H@2x.png */; };
+		1A864D071EB1964300A46DD9 /* Reader-Button-H@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A864CEA1EB1964300A46DD9 /* Reader-Button-H@3x.png */; };
+		1A864D081EB1964300A46DD9 /* Reader-Button-N.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A864CEB1EB1964300A46DD9 /* Reader-Button-N.png */; };
+		1A864D091EB1964300A46DD9 /* Reader-Button-N@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A864CEC1EB1964300A46DD9 /* Reader-Button-N@2x.png */; };
+		1A864D0A1EB1964300A46DD9 /* Reader-Button-N@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A864CED1EB1964300A46DD9 /* Reader-Button-N@3x.png */; };
+		1A864D0B1EB1964300A46DD9 /* Reader-Email.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A864CEE1EB1964300A46DD9 /* Reader-Email.png */; };
+		1A864D0C1EB1964300A46DD9 /* Reader-Email@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A864CEF1EB1964300A46DD9 /* Reader-Email@2x.png */; };
+		1A864D0D1EB1964300A46DD9 /* Reader-Email@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A864CF01EB1964300A46DD9 /* Reader-Email@3x.png */; };
+		1A864D0E1EB1964300A46DD9 /* Reader-Export.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A864CF11EB1964300A46DD9 /* Reader-Export.png */; };
+		1A864D0F1EB1964300A46DD9 /* Reader-Export@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A864CF21EB1964300A46DD9 /* Reader-Export@2x.png */; };
+		1A864D101EB1964300A46DD9 /* Reader-Export@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A864CF31EB1964300A46DD9 /* Reader-Export@3x.png */; };
+		1A864D111EB1964300A46DD9 /* Reader-Mark-N.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A864CF41EB1964300A46DD9 /* Reader-Mark-N.png */; };
+		1A864D121EB1964300A46DD9 /* Reader-Mark-N@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A864CF51EB1964300A46DD9 /* Reader-Mark-N@2x.png */; };
+		1A864D131EB1964300A46DD9 /* Reader-Mark-N@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A864CF61EB1964300A46DD9 /* Reader-Mark-N@3x.png */; };
+		1A864D141EB1964300A46DD9 /* Reader-Mark-Y.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A864CF71EB1964300A46DD9 /* Reader-Mark-Y.png */; };
+		1A864D151EB1964300A46DD9 /* Reader-Mark-Y@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A864CF81EB1964300A46DD9 /* Reader-Mark-Y@2x.png */; };
+		1A864D161EB1964300A46DD9 /* Reader-Mark-Y@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A864CF91EB1964300A46DD9 /* Reader-Mark-Y@3x.png */; };
+		1A864D171EB1964300A46DD9 /* Reader-Print.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A864CFA1EB1964300A46DD9 /* Reader-Print.png */; };
+		1A864D181EB1964300A46DD9 /* Reader-Print@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A864CFB1EB1964300A46DD9 /* Reader-Print@2x.png */; };
+		1A864D191EB1964300A46DD9 /* Reader-Print@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A864CFC1EB1964300A46DD9 /* Reader-Print@3x.png */; };
+		1A864D1A1EB1964300A46DD9 /* Reader-Thumbs.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A864CFD1EB1964300A46DD9 /* Reader-Thumbs.png */; };
+		1A864D1B1EB1964300A46DD9 /* Reader-Thumbs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A864CFE1EB1964300A46DD9 /* Reader-Thumbs@2x.png */; };
+		1A864D1C1EB1964300A46DD9 /* Reader-Thumbs@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A864CFF1EB1964300A46DD9 /* Reader-Thumbs@3x.png */; };
+		1A8A92D11EB074070052F4FF /* CGPDFDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8A92AA1EB074070052F4FF /* CGPDFDocument.m */; };
+		1A8A92D21EB074070052F4FF /* ReaderConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8A92AC1EB074070052F4FF /* ReaderConstants.m */; };
+		1A8A92D31EB074070052F4FF /* ReaderContentPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8A92AE1EB074070052F4FF /* ReaderContentPage.m */; };
+		1A8A92D41EB074070052F4FF /* ReaderContentTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8A92B01EB074070052F4FF /* ReaderContentTile.m */; };
+		1A8A92D51EB074070052F4FF /* ReaderContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8A92B21EB074070052F4FF /* ReaderContentView.m */; };
+		1A8A92D61EB074070052F4FF /* ReaderDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8A92B41EB074070052F4FF /* ReaderDocument.m */; };
+		1A8A92D71EB074070052F4FF /* ReaderDocumentOutline.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8A92B61EB074070052F4FF /* ReaderDocumentOutline.m */; };
+		1A8A92D81EB074070052F4FF /* ReaderMainPagebar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8A92B81EB074070052F4FF /* ReaderMainPagebar.m */; };
+		1A8A92D91EB074070052F4FF /* ReaderMainToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8A92BA1EB074070052F4FF /* ReaderMainToolbar.m */; };
+		1A8A92DA1EB074070052F4FF /* ReaderThumbCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8A92BC1EB074070052F4FF /* ReaderThumbCache.m */; };
+		1A8A92DB1EB074070052F4FF /* ReaderThumbFetch.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8A92BE1EB074070052F4FF /* ReaderThumbFetch.m */; };
+		1A8A92DC1EB074070052F4FF /* ReaderThumbQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8A92C01EB074070052F4FF /* ReaderThumbQueue.m */; };
+		1A8A92DD1EB074070052F4FF /* ReaderThumbRender.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8A92C21EB074070052F4FF /* ReaderThumbRender.m */; };
+		1A8A92DE1EB074070052F4FF /* ReaderThumbRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8A92C41EB074070052F4FF /* ReaderThumbRequest.m */; };
+		1A8A92DF1EB074070052F4FF /* ReaderThumbsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8A92C61EB074070052F4FF /* ReaderThumbsView.m */; };
+		1A8A92E01EB074070052F4FF /* ReaderThumbView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8A92C81EB074070052F4FF /* ReaderThumbView.m */; };
+		1A8A92E11EB074070052F4FF /* ReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8A92CA1EB074070052F4FF /* ReaderViewController.m */; };
+		1A8A92E21EB074070052F4FF /* ThumbsMainToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8A92CC1EB074070052F4FF /* ThumbsMainToolbar.m */; };
+		1A8A92E31EB074070052F4FF /* ThumbsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8A92CE1EB074070052F4FF /* ThumbsViewController.m */; };
+		1A8A92E41EB074070052F4FF /* UIXToolbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8A92D01EB074070052F4FF /* UIXToolbarView.m */; };
+		1A8A93251EB0A06A0052F4FF /* 11.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1A8A93241EB0A06A0052F4FF /* 11.pdf */; };
+		2AA5034F3B5BB7A628C66395 /* libPods-FileEncryption_Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BCE8EF0191CDFA7199D2616 /* libPods-FileEncryption_Demo.a */; };
+		7ED9ECD426E82FEAE1512271 /* libPods-FileEncryption_DemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2F60B25BB68D729847B2930 /* libPods-FileEncryption_DemoUITests.a */; };
+		CCA08945D975D0566FFC4ED9 /* libPods-FileEncryption_DemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B77FDED3902890958EE6317 /* libPods-FileEncryption_DemoTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A0DA5E11EAEE42100FF07D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A0DA5BF1EAEE42000FF07D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A0DA5C61EAEE42000FF07D6;
+			remoteInfo = FileEncryption_Demo;
+		};
+		1A0DA5EC1EAEE42100FF07D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A0DA5BF1EAEE42000FF07D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A0DA5C61EAEE42000FF07D6;
+			remoteInfo = FileEncryption_Demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A0DA5C71EAEE42000FF07D6 /* FileEncryption_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FileEncryption_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A0DA5CB1EAEE42000FF07D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A0DA5CD1EAEE42000FF07D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1A0DA5CE1EAEE42000FF07D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1A0DA5D01EAEE42000FF07D6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1A0DA5D11EAEE42000FF07D6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1A0DA5D41EAEE42000FF07D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A0DA5D61EAEE42000FF07D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A0DA5D91EAEE42000FF07D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A0DA5DB1EAEE42000FF07D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A0DA5E01EAEE42100FF07D6 /* FileEncryption_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FileEncryption_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A0DA5E41EAEE42100FF07D6 /* FileEncryption_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileEncryption_DemoTests.m; sourceTree = "<group>"; };
+		1A0DA5E61EAEE42100FF07D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A0DA5EB1EAEE42100FF07D6 /* FileEncryption_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FileEncryption_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A0DA5EF1EAEE42100FF07D6 /* FileEncryption_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileEncryption_DemoUITests.m; sourceTree = "<group>"; };
+		1A0DA5F11EAEE42100FF07D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A864CA31EB1939200A46DD9 /* default.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = default.jpg; sourceTree = "<group>"; };
+		1A864CE31EB1964300A46DD9 /* AppIcon-076.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon-076.png"; sourceTree = "<group>"; };
+		1A864CE41EB1964300A46DD9 /* AppIcon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon-120.png"; sourceTree = "<group>"; };
+		1A864CE51EB1964300A46DD9 /* AppIcon-152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon-152.png"; sourceTree = "<group>"; };
+		1A864CE61EB1964300A46DD9 /* AppIcon-167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon-167.png"; sourceTree = "<group>"; };
+		1A864CE71EB1964300A46DD9 /* AppIcon-180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon-180.png"; sourceTree = "<group>"; };
+		1A864CE81EB1964300A46DD9 /* Reader-Button-H.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reader-Button-H.png"; sourceTree = "<group>"; };
+		1A864CE91EB1964300A46DD9 /* Reader-Button-H@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reader-Button-H@2x.png"; sourceTree = "<group>"; };
+		1A864CEA1EB1964300A46DD9 /* Reader-Button-H@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reader-Button-H@3x.png"; sourceTree = "<group>"; };
+		1A864CEB1EB1964300A46DD9 /* Reader-Button-N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reader-Button-N.png"; sourceTree = "<group>"; };
+		1A864CEC1EB1964300A46DD9 /* Reader-Button-N@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reader-Button-N@2x.png"; sourceTree = "<group>"; };
+		1A864CED1EB1964300A46DD9 /* Reader-Button-N@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reader-Button-N@3x.png"; sourceTree = "<group>"; };
+		1A864CEE1EB1964300A46DD9 /* Reader-Email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reader-Email.png"; sourceTree = "<group>"; };
+		1A864CEF1EB1964300A46DD9 /* Reader-Email@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reader-Email@2x.png"; sourceTree = "<group>"; };
+		1A864CF01EB1964300A46DD9 /* Reader-Email@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reader-Email@3x.png"; sourceTree = "<group>"; };
+		1A864CF11EB1964300A46DD9 /* Reader-Export.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reader-Export.png"; sourceTree = "<group>"; };
+		1A864CF21EB1964300A46DD9 /* Reader-Export@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reader-Export@2x.png"; sourceTree = "<group>"; };
+		1A864CF31EB1964300A46DD9 /* Reader-Export@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reader-Export@3x.png"; sourceTree = "<group>"; };
+		1A864CF41EB1964300A46DD9 /* Reader-Mark-N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reader-Mark-N.png"; sourceTree = "<group>"; };
+		1A864CF51EB1964300A46DD9 /* Reader-Mark-N@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reader-Mark-N@2x.png"; sourceTree = "<group>"; };
+		1A864CF61EB1964300A46DD9 /* Reader-Mark-N@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reader-Mark-N@3x.png"; sourceTree = "<group>"; };
+		1A864CF71EB1964300A46DD9 /* Reader-Mark-Y.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reader-Mark-Y.png"; sourceTree = "<group>"; };
+		1A864CF81EB1964300A46DD9 /* Reader-Mark-Y@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reader-Mark-Y@2x.png"; sourceTree = "<group>"; };
+		1A864CF91EB1964300A46DD9 /* Reader-Mark-Y@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reader-Mark-Y@3x.png"; sourceTree = "<group>"; };
+		1A864CFA1EB1964300A46DD9 /* Reader-Print.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reader-Print.png"; sourceTree = "<group>"; };
+		1A864CFB1EB1964300A46DD9 /* Reader-Print@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reader-Print@2x.png"; sourceTree = "<group>"; };
+		1A864CFC1EB1964300A46DD9 /* Reader-Print@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reader-Print@3x.png"; sourceTree = "<group>"; };
+		1A864CFD1EB1964300A46DD9 /* Reader-Thumbs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reader-Thumbs.png"; sourceTree = "<group>"; };
+		1A864CFE1EB1964300A46DD9 /* Reader-Thumbs@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reader-Thumbs@2x.png"; sourceTree = "<group>"; };
+		1A864CFF1EB1964300A46DD9 /* Reader-Thumbs@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reader-Thumbs@3x.png"; sourceTree = "<group>"; };
+		1A8A92A91EB074070052F4FF /* CGPDFDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPDFDocument.h; sourceTree = "<group>"; };
+		1A8A92AA1EB074070052F4FF /* CGPDFDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGPDFDocument.m; sourceTree = "<group>"; };
+		1A8A92AB1EB074070052F4FF /* ReaderConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderConstants.h; sourceTree = "<group>"; };
+		1A8A92AC1EB074070052F4FF /* ReaderConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderConstants.m; sourceTree = "<group>"; };
+		1A8A92AD1EB074070052F4FF /* ReaderContentPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderContentPage.h; sourceTree = "<group>"; };
+		1A8A92AE1EB074070052F4FF /* ReaderContentPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderContentPage.m; sourceTree = "<group>"; };
+		1A8A92AF1EB074070052F4FF /* ReaderContentTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderContentTile.h; sourceTree = "<group>"; };
+		1A8A92B01EB074070052F4FF /* ReaderContentTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderContentTile.m; sourceTree = "<group>"; };
+		1A8A92B11EB074070052F4FF /* ReaderContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderContentView.h; sourceTree = "<group>"; };
+		1A8A92B21EB074070052F4FF /* ReaderContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderContentView.m; sourceTree = "<group>"; };
+		1A8A92B31EB074070052F4FF /* ReaderDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderDocument.h; sourceTree = "<group>"; };
+		1A8A92B41EB074070052F4FF /* ReaderDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderDocument.m; sourceTree = "<group>"; };
+		1A8A92B51EB074070052F4FF /* ReaderDocumentOutline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderDocumentOutline.h; sourceTree = "<group>"; };
+		1A8A92B61EB074070052F4FF /* ReaderDocumentOutline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderDocumentOutline.m; sourceTree = "<group>"; };
+		1A8A92B71EB074070052F4FF /* ReaderMainPagebar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderMainPagebar.h; sourceTree = "<group>"; };
+		1A8A92B81EB074070052F4FF /* ReaderMainPagebar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderMainPagebar.m; sourceTree = "<group>"; };
+		1A8A92B91EB074070052F4FF /* ReaderMainToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderMainToolbar.h; sourceTree = "<group>"; };
+		1A8A92BA1EB074070052F4FF /* ReaderMainToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderMainToolbar.m; sourceTree = "<group>"; };
+		1A8A92BB1EB074070052F4FF /* ReaderThumbCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderThumbCache.h; sourceTree = "<group>"; };
+		1A8A92BC1EB074070052F4FF /* ReaderThumbCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderThumbCache.m; sourceTree = "<group>"; };
+		1A8A92BD1EB074070052F4FF /* ReaderThumbFetch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderThumbFetch.h; sourceTree = "<group>"; };
+		1A8A92BE1EB074070052F4FF /* ReaderThumbFetch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderThumbFetch.m; sourceTree = "<group>"; };
+		1A8A92BF1EB074070052F4FF /* ReaderThumbQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderThumbQueue.h; sourceTree = "<group>"; };
+		1A8A92C01EB074070052F4FF /* ReaderThumbQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderThumbQueue.m; sourceTree = "<group>"; };
+		1A8A92C11EB074070052F4FF /* ReaderThumbRender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderThumbRender.h; sourceTree = "<group>"; };
+		1A8A92C21EB074070052F4FF /* ReaderThumbRender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderThumbRender.m; sourceTree = "<group>"; };
+		1A8A92C31EB074070052F4FF /* ReaderThumbRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderThumbRequest.h; sourceTree = "<group>"; };
+		1A8A92C41EB074070052F4FF /* ReaderThumbRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderThumbRequest.m; sourceTree = "<group>"; };
+		1A8A92C51EB074070052F4FF /* ReaderThumbsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderThumbsView.h; sourceTree = "<group>"; };
+		1A8A92C61EB074070052F4FF /* ReaderThumbsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderThumbsView.m; sourceTree = "<group>"; };
+		1A8A92C71EB074070052F4FF /* ReaderThumbView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderThumbView.h; sourceTree = "<group>"; };
+		1A8A92C81EB074070052F4FF /* ReaderThumbView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderThumbView.m; sourceTree = "<group>"; };
+		1A8A92C91EB074070052F4FF /* ReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderViewController.h; sourceTree = "<group>"; };
+		1A8A92CA1EB074070052F4FF /* ReaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderViewController.m; sourceTree = "<group>"; };
+		1A8A92CB1EB074070052F4FF /* ThumbsMainToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbsMainToolbar.h; sourceTree = "<group>"; };
+		1A8A92CC1EB074070052F4FF /* ThumbsMainToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbsMainToolbar.m; sourceTree = "<group>"; };
+		1A8A92CD1EB074070052F4FF /* ThumbsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbsViewController.h; sourceTree = "<group>"; };
+		1A8A92CE1EB074070052F4FF /* ThumbsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbsViewController.m; sourceTree = "<group>"; };
+		1A8A92CF1EB074070052F4FF /* UIXToolbarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIXToolbarView.h; sourceTree = "<group>"; };
+		1A8A92D01EB074070052F4FF /* UIXToolbarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIXToolbarView.m; sourceTree = "<group>"; };
+		1A8A93241EB0A06A0052F4FF /* 11.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 11.pdf; sourceTree = "<group>"; };
+		1BCE8EF0191CDFA7199D2616 /* libPods-FileEncryption_Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FileEncryption_Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A9006EA4DBB644EC86364D5 /* Pods-FileEncryption_DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FileEncryption_DemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FileEncryption_DemoTests/Pods-FileEncryption_DemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		749DAE60C2486F6CCBB3E698 /* Pods-FileEncryption_DemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FileEncryption_DemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FileEncryption_DemoTests/Pods-FileEncryption_DemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B77FDED3902890958EE6317 /* libPods-FileEncryption_DemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FileEncryption_DemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88E28B8C0D2322594ED0312D /* Pods-FileEncryption_DemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FileEncryption_DemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FileEncryption_DemoUITests/Pods-FileEncryption_DemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A2F60B25BB68D729847B2930 /* libPods-FileEncryption_DemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FileEncryption_DemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A447F68875E6B28CE9CDD30C /* Pods-FileEncryption_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FileEncryption_Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FileEncryption_Demo/Pods-FileEncryption_Demo.release.xcconfig"; sourceTree = "<group>"; };
+		F447E6488F953D5A1CEE3264 /* Pods-FileEncryption_DemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FileEncryption_DemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FileEncryption_DemoUITests/Pods-FileEncryption_DemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FCF70F461B8F0C1F563C12AF /* Pods-FileEncryption_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FileEncryption_Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FileEncryption_Demo/Pods-FileEncryption_Demo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A0DA5C41EAEE42000FF07D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AA5034F3B5BB7A628C66395 /* libPods-FileEncryption_Demo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A0DA5DD1EAEE42000FF07D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA08945D975D0566FFC4ED9 /* libPods-FileEncryption_DemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A0DA5E81EAEE42100FF07D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ED9ECD426E82FEAE1512271 /* libPods-FileEncryption_DemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A0DA5BE1EAEE42000FF07D6 = {
+			isa = PBXGroup;
+			children = (
+				1A864CA31EB1939200A46DD9 /* default.jpg */,
+				1A8A93241EB0A06A0052F4FF /* 11.pdf */,
+				1A0DA5C91EAEE42000FF07D6 /* FileEncryption_Demo */,
+				1A0DA5E31EAEE42100FF07D6 /* FileEncryption_DemoTests */,
+				1A0DA5EE1EAEE42100FF07D6 /* FileEncryption_DemoUITests */,
+				1A0DA5C81EAEE42000FF07D6 /* Products */,
+				DD1458796FF88B5D4B4139BA /* Pods */,
+				3A176379AB5AB6DAA6F7F4E7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1A0DA5C81EAEE42000FF07D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A0DA5C71EAEE42000FF07D6 /* FileEncryption_Demo.app */,
+				1A0DA5E01EAEE42100FF07D6 /* FileEncryption_DemoTests.xctest */,
+				1A0DA5EB1EAEE42100FF07D6 /* FileEncryption_DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A0DA5C91EAEE42000FF07D6 /* FileEncryption_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				1A8A92A81EB074070052F4FF /* PDFReaderSources */,
+				1A0DA5CD1EAEE42000FF07D6 /* AppDelegate.h */,
+				1A0DA5CE1EAEE42000FF07D6 /* AppDelegate.m */,
+				1A0DA5D01EAEE42000FF07D6 /* ViewController.h */,
+				1A0DA5D11EAEE42000FF07D6 /* ViewController.m */,
+				1A0DA5D31EAEE42000FF07D6 /* Main.storyboard */,
+				1A0DA5D61EAEE42000FF07D6 /* Assets.xcassets */,
+				1A0DA5D81EAEE42000FF07D6 /* LaunchScreen.storyboard */,
+				1A0DA5DB1EAEE42000FF07D6 /* Info.plist */,
+				1A0DA5CA1EAEE42000FF07D6 /* Supporting Files */,
+				1A864CE21EB1964300A46DD9 /* Graphics */,
+			);
+			path = FileEncryption_Demo;
+			sourceTree = "<group>";
+		};
+		1A0DA5CA1EAEE42000FF07D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A0DA5CB1EAEE42000FF07D6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A0DA5E31EAEE42100FF07D6 /* FileEncryption_DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A0DA5E41EAEE42100FF07D6 /* FileEncryption_DemoTests.m */,
+				1A0DA5E61EAEE42100FF07D6 /* Info.plist */,
+			);
+			path = FileEncryption_DemoTests;
+			sourceTree = "<group>";
+		};
+		1A0DA5EE1EAEE42100FF07D6 /* FileEncryption_DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A0DA5EF1EAEE42100FF07D6 /* FileEncryption_DemoUITests.m */,
+				1A0DA5F11EAEE42100FF07D6 /* Info.plist */,
+			);
+			path = FileEncryption_DemoUITests;
+			sourceTree = "<group>";
+		};
+		1A864CE21EB1964300A46DD9 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				1A864CE31EB1964300A46DD9 /* AppIcon-076.png */,
+				1A864CE41EB1964300A46DD9 /* AppIcon-120.png */,
+				1A864CE51EB1964300A46DD9 /* AppIcon-152.png */,
+				1A864CE61EB1964300A46DD9 /* AppIcon-167.png */,
+				1A864CE71EB1964300A46DD9 /* AppIcon-180.png */,
+				1A864CE81EB1964300A46DD9 /* Reader-Button-H.png */,
+				1A864CE91EB1964300A46DD9 /* Reader-Button-H@2x.png */,
+				1A864CEA1EB1964300A46DD9 /* Reader-Button-H@3x.png */,
+				1A864CEB1EB1964300A46DD9 /* Reader-Button-N.png */,
+				1A864CEC1EB1964300A46DD9 /* Reader-Button-N@2x.png */,
+				1A864CED1EB1964300A46DD9 /* Reader-Button-N@3x.png */,
+				1A864CEE1EB1964300A46DD9 /* Reader-Email.png */,
+				1A864CEF1EB1964300A46DD9 /* Reader-Email@2x.png */,
+				1A864CF01EB1964300A46DD9 /* Reader-Email@3x.png */,
+				1A864CF11EB1964300A46DD9 /* Reader-Export.png */,
+				1A864CF21EB1964300A46DD9 /* Reader-Export@2x.png */,
+				1A864CF31EB1964300A46DD9 /* Reader-Export@3x.png */,
+				1A864CF41EB1964300A46DD9 /* Reader-Mark-N.png */,
+				1A864CF51EB1964300A46DD9 /* Reader-Mark-N@2x.png */,
+				1A864CF61EB1964300A46DD9 /* Reader-Mark-N@3x.png */,
+				1A864CF71EB1964300A46DD9 /* Reader-Mark-Y.png */,
+				1A864CF81EB1964300A46DD9 /* Reader-Mark-Y@2x.png */,
+				1A864CF91EB1964300A46DD9 /* Reader-Mark-Y@3x.png */,
+				1A864CFA1EB1964300A46DD9 /* Reader-Print.png */,
+				1A864CFB1EB1964300A46DD9 /* Reader-Print@2x.png */,
+				1A864CFC1EB1964300A46DD9 /* Reader-Print@3x.png */,
+				1A864CFD1EB1964300A46DD9 /* Reader-Thumbs.png */,
+				1A864CFE1EB1964300A46DD9 /* Reader-Thumbs@2x.png */,
+				1A864CFF1EB1964300A46DD9 /* Reader-Thumbs@3x.png */,
+			);
+			name = Graphics;
+			path = FileEncryption_DemoTests/Graphics;
+			sourceTree = SOURCE_ROOT;
+		};
+		1A8A92A81EB074070052F4FF /* PDFReaderSources */ = {
+			isa = PBXGroup;
+			children = (
+				1A8A92A91EB074070052F4FF /* CGPDFDocument.h */,
+				1A8A92AA1EB074070052F4FF /* CGPDFDocument.m */,
+				1A8A92AB1EB074070052F4FF /* ReaderConstants.h */,
+				1A8A92AC1EB074070052F4FF /* ReaderConstants.m */,
+				1A8A92AD1EB074070052F4FF /* ReaderContentPage.h */,
+				1A8A92AE1EB074070052F4FF /* ReaderContentPage.m */,
+				1A8A92AF1EB074070052F4FF /* ReaderContentTile.h */,
+				1A8A92B01EB074070052F4FF /* ReaderContentTile.m */,
+				1A8A92B11EB074070052F4FF /* ReaderContentView.h */,
+				1A8A92B21EB074070052F4FF /* ReaderContentView.m */,
+				1A8A92B31EB074070052F4FF /* ReaderDocument.h */,
+				1A8A92B41EB074070052F4FF /* ReaderDocument.m */,
+				1A8A92B51EB074070052F4FF /* ReaderDocumentOutline.h */,
+				1A8A92B61EB074070052F4FF /* ReaderDocumentOutline.m */,
+				1A8A92B71EB074070052F4FF /* ReaderMainPagebar.h */,
+				1A8A92B81EB074070052F4FF /* ReaderMainPagebar.m */,
+				1A8A92B91EB074070052F4FF /* ReaderMainToolbar.h */,
+				1A8A92BA1EB074070052F4FF /* ReaderMainToolbar.m */,
+				1A8A92BB1EB074070052F4FF /* ReaderThumbCache.h */,
+				1A8A92BC1EB074070052F4FF /* ReaderThumbCache.m */,
+				1A8A92BD1EB074070052F4FF /* ReaderThumbFetch.h */,
+				1A8A92BE1EB074070052F4FF /* ReaderThumbFetch.m */,
+				1A8A92BF1EB074070052F4FF /* ReaderThumbQueue.h */,
+				1A8A92C01EB074070052F4FF /* ReaderThumbQueue.m */,
+				1A8A92C11EB074070052F4FF /* ReaderThumbRender.h */,
+				1A8A92C21EB074070052F4FF /* ReaderThumbRender.m */,
+				1A8A92C31EB074070052F4FF /* ReaderThumbRequest.h */,
+				1A8A92C41EB074070052F4FF /* ReaderThumbRequest.m */,
+				1A8A92C51EB074070052F4FF /* ReaderThumbsView.h */,
+				1A8A92C61EB074070052F4FF /* ReaderThumbsView.m */,
+				1A8A92C71EB074070052F4FF /* ReaderThumbView.h */,
+				1A8A92C81EB074070052F4FF /* ReaderThumbView.m */,
+				1A8A92C91EB074070052F4FF /* ReaderViewController.h */,
+				1A8A92CA1EB074070052F4FF /* ReaderViewController.m */,
+				1A8A92CB1EB074070052F4FF /* ThumbsMainToolbar.h */,
+				1A8A92CC1EB074070052F4FF /* ThumbsMainToolbar.m */,
+				1A8A92CD1EB074070052F4FF /* ThumbsViewController.h */,
+				1A8A92CE1EB074070052F4FF /* ThumbsViewController.m */,
+				1A8A92CF1EB074070052F4FF /* UIXToolbarView.h */,
+				1A8A92D01EB074070052F4FF /* UIXToolbarView.m */,
+			);
+			path = PDFReaderSources;
+			sourceTree = "<group>";
+		};
+		3A176379AB5AB6DAA6F7F4E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BCE8EF0191CDFA7199D2616 /* libPods-FileEncryption_Demo.a */,
+				7B77FDED3902890958EE6317 /* libPods-FileEncryption_DemoTests.a */,
+				A2F60B25BB68D729847B2930 /* libPods-FileEncryption_DemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD1458796FF88B5D4B4139BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FCF70F461B8F0C1F563C12AF /* Pods-FileEncryption_Demo.debug.xcconfig */,
+				A447F68875E6B28CE9CDD30C /* Pods-FileEncryption_Demo.release.xcconfig */,
+				749DAE60C2486F6CCBB3E698 /* Pods-FileEncryption_DemoTests.debug.xcconfig */,
+				3A9006EA4DBB644EC86364D5 /* Pods-FileEncryption_DemoTests.release.xcconfig */,
+				F447E6488F953D5A1CEE3264 /* Pods-FileEncryption_DemoUITests.debug.xcconfig */,
+				88E28B8C0D2322594ED0312D /* Pods-FileEncryption_DemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A0DA5C61EAEE42000FF07D6 /* FileEncryption_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A0DA5F41EAEE42100FF07D6 /* Build configuration list for PBXNativeTarget "FileEncryption_Demo" */;
+			buildPhases = (
+				97E0042AF872A2D5869E06A2 /* [CP] Check Pods Manifest.lock */,
+				1A0DA5C31EAEE42000FF07D6 /* Sources */,
+				1A0DA5C41EAEE42000FF07D6 /* Frameworks */,
+				1A0DA5C51EAEE42000FF07D6 /* Resources */,
+				A2246BDD54B6D04B264F1143 /* [CP] Embed Pods Frameworks */,
+				5D011348B28917845601D429 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FileEncryption_Demo;
+			productName = FileEncryption_Demo;
+			productReference = 1A0DA5C71EAEE42000FF07D6 /* FileEncryption_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A0DA5DF1EAEE42000FF07D6 /* FileEncryption_DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A0DA5F71EAEE42100FF07D6 /* Build configuration list for PBXNativeTarget "FileEncryption_DemoTests" */;
+			buildPhases = (
+				F34E0D2F75E40F27C3CDC279 /* [CP] Check Pods Manifest.lock */,
+				1A0DA5DC1EAEE42000FF07D6 /* Sources */,
+				1A0DA5DD1EAEE42000FF07D6 /* Frameworks */,
+				1A0DA5DE1EAEE42000FF07D6 /* Resources */,
+				4E4D5880EA5DC40063BF6E8C /* [CP] Embed Pods Frameworks */,
+				120E0D53D59FE6DE7EC8479D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A0DA5E21EAEE42100FF07D6 /* PBXTargetDependency */,
+			);
+			name = FileEncryption_DemoTests;
+			productName = FileEncryption_DemoTests;
+			productReference = 1A0DA5E01EAEE42100FF07D6 /* FileEncryption_DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A0DA5EA1EAEE42100FF07D6 /* FileEncryption_DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A0DA5FA1EAEE42100FF07D6 /* Build configuration list for PBXNativeTarget "FileEncryption_DemoUITests" */;
+			buildPhases = (
+				68363FD6BCE5E2BBFBE39CC8 /* [CP] Check Pods Manifest.lock */,
+				1A0DA5E71EAEE42100FF07D6 /* Sources */,
+				1A0DA5E81EAEE42100FF07D6 /* Frameworks */,
+				1A0DA5E91EAEE42100FF07D6 /* Resources */,
+				FB9FF2027AC4C6B831067B4D /* [CP] Embed Pods Frameworks */,
+				07593E312F779C8C026BD622 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A0DA5ED1EAEE42100FF07D6 /* PBXTargetDependency */,
+			);
+			name = FileEncryption_DemoUITests;
+			productName = FileEncryption_DemoUITests;
+			productReference = 1A0DA5EB1EAEE42100FF07D6 /* FileEncryption_DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A0DA5BF1EAEE42000FF07D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "秦国华";
+				TargetAttributes = {
+					1A0DA5C61EAEE42000FF07D6 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7QWDXARLD3;
+						ProvisioningStyle = Automatic;
+					};
+					1A0DA5DF1EAEE42000FF07D6 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7QWDXARLD3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1A0DA5C61EAEE42000FF07D6;
+					};
+					1A0DA5EA1EAEE42100FF07D6 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7QWDXARLD3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1A0DA5C61EAEE42000FF07D6;
+					};
+				};
+			};
+			buildConfigurationList = 1A0DA5C21EAEE42000FF07D6 /* Build configuration list for PBXProject "FileEncryption_Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A0DA5BE1EAEE42000FF07D6;
+			productRefGroup = 1A0DA5C81EAEE42000FF07D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A0DA5C61EAEE42000FF07D6 /* FileEncryption_Demo */,
+				1A0DA5DF1EAEE42000FF07D6 /* FileEncryption_DemoTests */,
+				1A0DA5EA1EAEE42100FF07D6 /* FileEncryption_DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A0DA5C51EAEE42000FF07D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A8A93251EB0A06A0052F4FF /* 11.pdf in Resources */,
+				1A0DA5DA1EAEE42000FF07D6 /* LaunchScreen.storyboard in Resources */,
+				1A0DA5D71EAEE42000FF07D6 /* Assets.xcassets in Resources */,
+				1A0DA5D51EAEE42000FF07D6 /* Main.storyboard in Resources */,
+				1A864CA41EB1939200A46DD9 /* default.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A0DA5DE1EAEE42000FF07D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A864D081EB1964300A46DD9 /* Reader-Button-N.png in Resources */,
+				1A864D011EB1964300A46DD9 /* AppIcon-120.png in Resources */,
+				1A864D001EB1964300A46DD9 /* AppIcon-076.png in Resources */,
+				1A864D0F1EB1964300A46DD9 /* Reader-Export@2x.png in Resources */,
+				1A864D151EB1964300A46DD9 /* Reader-Mark-Y@2x.png in Resources */,
+				1A864D0C1EB1964300A46DD9 /* Reader-Email@2x.png in Resources */,
+				1A864D191EB1964300A46DD9 /* Reader-Print@3x.png in Resources */,
+				1A864D021EB1964300A46DD9 /* AppIcon-152.png in Resources */,
+				1A864D0D1EB1964300A46DD9 /* Reader-Email@3x.png in Resources */,
+				1A864D051EB1964300A46DD9 /* Reader-Button-H.png in Resources */,
+				1A864D131EB1964300A46DD9 /* Reader-Mark-N@3x.png in Resources */,
+				1A864D1C1EB1964300A46DD9 /* Reader-Thumbs@3x.png in Resources */,
+				1A864D1A1EB1964300A46DD9 /* Reader-Thumbs.png in Resources */,
+				1A864D1B1EB1964300A46DD9 /* Reader-Thumbs@2x.png in Resources */,
+				1A864D061EB1964300A46DD9 /* Reader-Button-H@2x.png in Resources */,
+				1A864D091EB1964300A46DD9 /* Reader-Button-N@2x.png in Resources */,
+				1A864D0A1EB1964300A46DD9 /* Reader-Button-N@3x.png in Resources */,
+				1A864D071EB1964300A46DD9 /* Reader-Button-H@3x.png in Resources */,
+				1A864D0E1EB1964300A46DD9 /* Reader-Export.png in Resources */,
+				1A864D181EB1964300A46DD9 /* Reader-Print@2x.png in Resources */,
+				1A864D161EB1964300A46DD9 /* Reader-Mark-Y@3x.png in Resources */,
+				1A864D171EB1964300A46DD9 /* Reader-Print.png in Resources */,
+				1A864D141EB1964300A46DD9 /* Reader-Mark-Y.png in Resources */,
+				1A864D041EB1964300A46DD9 /* AppIcon-180.png in Resources */,
+				1A864D111EB1964300A46DD9 /* Reader-Mark-N.png in Resources */,
+				1A864D031EB1964300A46DD9 /* AppIcon-167.png in Resources */,
+				1A864D0B1EB1964300A46DD9 /* Reader-Email.png in Resources */,
+				1A864D121EB1964300A46DD9 /* Reader-Mark-N@2x.png in Resources */,
+				1A864D101EB1964300A46DD9 /* Reader-Export@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A0DA5E91EAEE42100FF07D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07593E312F779C8C026BD622 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FileEncryption_DemoUITests/Pods-FileEncryption_DemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		120E0D53D59FE6DE7EC8479D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FileEncryption_DemoTests/Pods-FileEncryption_DemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E4D5880EA5DC40063BF6E8C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FileEncryption_DemoTests/Pods-FileEncryption_DemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D011348B28917845601D429 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FileEncryption_Demo/Pods-FileEncryption_Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68363FD6BCE5E2BBFBE39CC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		97E0042AF872A2D5869E06A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A2246BDD54B6D04B264F1143 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FileEncryption_Demo/Pods-FileEncryption_Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F34E0D2F75E40F27C3CDC279 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FB9FF2027AC4C6B831067B4D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FileEncryption_DemoUITests/Pods-FileEncryption_DemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A0DA5C31EAEE42000FF07D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A8A92D71EB074070052F4FF /* ReaderDocumentOutline.m in Sources */,
+				1A8A92DD1EB074070052F4FF /* ReaderThumbRender.m in Sources */,
+				1A8A92D91EB074070052F4FF /* ReaderMainToolbar.m in Sources */,
+				1A0DA5D21EAEE42000FF07D6 /* ViewController.m in Sources */,
+				1A8A92D41EB074070052F4FF /* ReaderContentTile.m in Sources */,
+				1A8A92D61EB074070052F4FF /* ReaderDocument.m in Sources */,
+				1A8A92D31EB074070052F4FF /* ReaderContentPage.m in Sources */,
+				1A8A92E21EB074070052F4FF /* ThumbsMainToolbar.m in Sources */,
+				1A8A92DA1EB074070052F4FF /* ReaderThumbCache.m in Sources */,
+				1A8A92D81EB074070052F4FF /* ReaderMainPagebar.m in Sources */,
+				1A8A92DB1EB074070052F4FF /* ReaderThumbFetch.m in Sources */,
+				1A8A92E01EB074070052F4FF /* ReaderThumbView.m in Sources */,
+				1A8A92DC1EB074070052F4FF /* ReaderThumbQueue.m in Sources */,
+				1A8A92D11EB074070052F4FF /* CGPDFDocument.m in Sources */,
+				1A8A92D21EB074070052F4FF /* ReaderConstants.m in Sources */,
+				1A0DA5CF1EAEE42000FF07D6 /* AppDelegate.m in Sources */,
+				1A8A92DF1EB074070052F4FF /* ReaderThumbsView.m in Sources */,
+				1A0DA5CC1EAEE42000FF07D6 /* main.m in Sources */,
+				1A8A92D51EB074070052F4FF /* ReaderContentView.m in Sources */,
+				1A8A92E31EB074070052F4FF /* ThumbsViewController.m in Sources */,
+				1A8A92E41EB074070052F4FF /* UIXToolbarView.m in Sources */,
+				1A8A92DE1EB074070052F4FF /* ReaderThumbRequest.m in Sources */,
+				1A8A92E11EB074070052F4FF /* ReaderViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A0DA5DC1EAEE42000FF07D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A0DA5E51EAEE42100FF07D6 /* FileEncryption_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A0DA5E71EAEE42100FF07D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A0DA5F01EAEE42100FF07D6 /* FileEncryption_DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A0DA5E21EAEE42100FF07D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A0DA5C61EAEE42000FF07D6 /* FileEncryption_Demo */;
+			targetProxy = 1A0DA5E11EAEE42100FF07D6 /* PBXContainerItemProxy */;
+		};
+		1A0DA5ED1EAEE42100FF07D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A0DA5C61EAEE42000FF07D6 /* FileEncryption_Demo */;
+			targetProxy = 1A0DA5EC1EAEE42100FF07D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A0DA5D31EAEE42000FF07D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A0DA5D41EAEE42000FF07D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A0DA5D81EAEE42000FF07D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A0DA5D91EAEE42000FF07D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A0DA5F21EAEE42100FF07D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1A0DA5F31EAEE42100FF07D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A0DA5F51EAEE42100FF07D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCF70F461B8F0C1F563C12AF /* Pods-FileEncryption_Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7QWDXARLD3;
+				INFOPLIST_FILE = FileEncryption_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "guohua.FileEncryption-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1A0DA5F61EAEE42100FF07D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A447F68875E6B28CE9CDD30C /* Pods-FileEncryption_Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7QWDXARLD3;
+				INFOPLIST_FILE = FileEncryption_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "guohua.FileEncryption-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1A0DA5F81EAEE42100FF07D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 749DAE60C2486F6CCBB3E698 /* Pods-FileEncryption_DemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7QWDXARLD3;
+				INFOPLIST_FILE = FileEncryption_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "guohua.FileEncryption-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FileEncryption_Demo.app/FileEncryption_Demo";
+			};
+			name = Debug;
+		};
+		1A0DA5F91EAEE42100FF07D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A9006EA4DBB644EC86364D5 /* Pods-FileEncryption_DemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7QWDXARLD3;
+				INFOPLIST_FILE = FileEncryption_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "guohua.FileEncryption-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FileEncryption_Demo.app/FileEncryption_Demo";
+			};
+			name = Release;
+		};
+		1A0DA5FB1EAEE42100FF07D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F447E6488F953D5A1CEE3264 /* Pods-FileEncryption_DemoUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7QWDXARLD3;
+				INFOPLIST_FILE = FileEncryption_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "guohua.FileEncryption-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FileEncryption_Demo;
+			};
+			name = Debug;
+		};
+		1A0DA5FC1EAEE42100FF07D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88E28B8C0D2322594ED0312D /* Pods-FileEncryption_DemoUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7QWDXARLD3;
+				INFOPLIST_FILE = FileEncryption_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "guohua.FileEncryption-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FileEncryption_Demo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A0DA5C21EAEE42000FF07D6 /* Build configuration list for PBXProject "FileEncryption_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A0DA5F21EAEE42100FF07D6 /* Debug */,
+				1A0DA5F31EAEE42100FF07D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A0DA5F41EAEE42100FF07D6 /* Build configuration list for PBXNativeTarget "FileEncryption_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A0DA5F51EAEE42100FF07D6 /* Debug */,
+				1A0DA5F61EAEE42100FF07D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A0DA5F71EAEE42100FF07D6 /* Build configuration list for PBXNativeTarget "FileEncryption_DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A0DA5F81EAEE42100FF07D6 /* Debug */,
+				1A0DA5F91EAEE42100FF07D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A0DA5FA1EAEE42100FF07D6 /* Build configuration list for PBXNativeTarget "FileEncryption_DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A0DA5FB1EAEE42100FF07D6 /* Debug */,
+				1A0DA5FC1EAEE42100FF07D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A0DA5BF1EAEE42000FF07D6 /* Project object */;
+}

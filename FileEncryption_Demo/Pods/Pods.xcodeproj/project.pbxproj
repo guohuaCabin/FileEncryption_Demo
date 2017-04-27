@@ -1,0 +1,732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		031B7DD06F585D8312D0185BD8B6EC47 /* Pods-FileEncryption_DemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53115C7486284E84BAE41D60BDC3D53B /* Pods-FileEncryption_DemoUITests-dummy.m */; };
+		541D56488B8D13700729FA4E575F27A0 /* RNCryptor-objc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3C09945AE1F134C0BACDF433FD91AB /* RNCryptor-objc-dummy.m */; };
+		69CDA4E1314AABD49FC265D6423E3F3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4690263E3C2DD3C24DEAC554FFBD486 /* Foundation.framework */; };
+		71CDB0170B0C6137EADC7F350DEF08CF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFD15069DBFFAF7E7CD48183E2D230C /* Security.framework */; };
+		96C4712F798F77E5FF1F2E53CEFE5D28 /* RNDecryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5C93F351648A950A2D5B2BBE10E5BD /* RNDecryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9B86FBF7BE1D272691A2E733D8538C70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4690263E3C2DD3C24DEAC554FFBD486 /* Foundation.framework */; };
+		A08B544B84CDDDCE2A48AB23B9323F05 /* RNCryptorEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0C57A9EBE9BD3EAB61060DFD27E114 /* RNCryptorEngine.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A7E1173A84DAD9BB0461366F28205068 /* RNEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = A62A247CE57BB9CA21519A3CDB1F1DA5 /* RNEncryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD563253F8BC2070DFD2986EE09BABA4 /* RNCryptorEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 34E67339908E20820B18D7155044DD38 /* RNCryptorEngine.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B7DAC27E07C90A5AE2BFAB5E46C5534B /* RNDecryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = FC9CCC345D1F4ABF3613607FFF398A6E /* RNDecryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEEB5BD42F1A181BE8E87D96D0622F50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4690263E3C2DD3C24DEAC554FFBD486 /* Foundation.framework */; };
+		CD68CE8772BF6C78FF6ECD3FE716689A /* Pods-FileEncryption_DemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A29687A727FBD39721BAFB2AC901FA5 /* Pods-FileEncryption_DemoTests-dummy.m */; };
+		D22A4253B61372EB71EA8FDAE212EEAA /* Pods-FileEncryption_Demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5500E0710192AE128E5D1866F5EC302 /* Pods-FileEncryption_Demo-dummy.m */; };
+		D64A5CB6B2B12ADA8DA0EB1602D51F7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4690263E3C2DD3C24DEAC554FFBD486 /* Foundation.framework */; };
+		DADF80E5877E8AF27FD1EB56619E110A /* RNCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B919491992A5636B485414194FD3C0 /* RNCryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD50F362D0A5687D5F184109237E3492 /* RNCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F95572A9B4EB85564A5D9571976D1F2 /* RNCryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DFB162A5256A64505E5D3155C3C990A9 /* RNEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0376550E30F66F73C77A4552E0FCAB /* RNEncryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E6913AA1EB3AE437547F6C2501A5074C /* RNCryptor+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DDDD6259505C41451E173458EBF3DE1 /* RNCryptor+Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0560539FD9BAEB0AA56A764A5A80CD2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 188230E9C422D25DB4C03A4016515F3D;
+			remoteInfo = "RNCryptor-objc";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A29687A727FBD39721BAFB2AC901FA5 /* Pods-FileEncryption_DemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FileEncryption_DemoTests-dummy.m"; sourceTree = "<group>"; };
+		0C339774ECB9D8A46B2D412350A6ED16 /* RNCryptor-objc-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RNCryptor-objc-prefix.pch"; sourceTree = "<group>"; };
+		0F0376550E30F66F73C77A4552E0FCAB /* RNEncryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNEncryptor.m; path = RNCryptor/RNEncryptor.m; sourceTree = "<group>"; };
+		15CB29AD4C7271D250B046F913423B85 /* libPods-FileEncryption_Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-FileEncryption_Demo.a"; path = "libPods-FileEncryption_Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C53D064B5F8D9AC5A7FACC982886DC1 /* libPods-FileEncryption_DemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-FileEncryption_DemoUITests.a"; path = "libPods-FileEncryption_DemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E043784E273F85E42418EC887BF286E /* Pods-FileEncryption_Demo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FileEncryption_Demo-resources.sh"; sourceTree = "<group>"; };
+		1F95572A9B4EB85564A5D9571976D1F2 /* RNCryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNCryptor.m; path = RNCryptor/RNCryptor.m; sourceTree = "<group>"; };
+		2A27E797B952BFCA059328D5B1091F22 /* Pods-FileEncryption_DemoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FileEncryption_DemoUITests-resources.sh"; sourceTree = "<group>"; };
+		33CA92E7AB712C28C4B0783C10E9AF98 /* libRNCryptor-objc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libRNCryptor-objc.a"; path = "libRNCryptor-objc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		345BF440A92CA80464B745B4E631F71C /* Pods-FileEncryption_DemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FileEncryption_DemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		34E67339908E20820B18D7155044DD38 /* RNCryptorEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNCryptorEngine.h; path = RNCryptor/RNCryptorEngine.h; sourceTree = "<group>"; };
+		3A591E83D26EDAE38E7CCDF88E931234 /* Pods-FileEncryption_DemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FileEncryption_DemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4D91B417181ED16CEFF0E10E288B21CA /* Pods-FileEncryption_DemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FileEncryption_DemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4F3C09945AE1F134C0BACDF433FD91AB /* RNCryptor-objc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RNCryptor-objc-dummy.m"; sourceTree = "<group>"; };
+		53115C7486284E84BAE41D60BDC3D53B /* Pods-FileEncryption_DemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FileEncryption_DemoUITests-dummy.m"; sourceTree = "<group>"; };
+		5B5C93F351648A950A2D5B2BBE10E5BD /* RNDecryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNDecryptor.m; path = RNCryptor/RNDecryptor.m; sourceTree = "<group>"; };
+		5DDDD6259505C41451E173458EBF3DE1 /* RNCryptor+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RNCryptor+Private.h"; path = "RNCryptor/RNCryptor+Private.h"; sourceTree = "<group>"; };
+		5EED0DBCD19751CB78265BD79FDD5D23 /* Pods-FileEncryption_DemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FileEncryption_DemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6305C469ADD5DD120C54F5C30950CC09 /* Pods-FileEncryption_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FileEncryption_Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		673099C1EEEF88A198898D02E0B69D28 /* Pods-FileEncryption_DemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FileEncryption_DemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6EEE1AA20920244941A3629283B863CF /* Pods-FileEncryption_Demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FileEncryption_Demo-acknowledgements.plist"; sourceTree = "<group>"; };
+		7FEE3FEBE66036DCEE6013CB857AB846 /* Pods-FileEncryption_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FileEncryption_Demo.release.xcconfig"; sourceTree = "<group>"; };
+		81B919491992A5636B485414194FD3C0 /* RNCryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNCryptor.h; path = RNCryptor/RNCryptor.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A58611B9DB93C4856A361BD76328CC6 /* Pods-FileEncryption_DemoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FileEncryption_DemoTests-resources.sh"; sourceTree = "<group>"; };
+		9DD22BDD14E023C53472FB75ADC5CD9F /* Pods-FileEncryption_DemoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FileEncryption_DemoTests-frameworks.sh"; sourceTree = "<group>"; };
+		A62A247CE57BB9CA21519A3CDB1F1DA5 /* RNEncryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNEncryptor.h; path = RNCryptor/RNEncryptor.h; sourceTree = "<group>"; };
+		A75B53088C0A5572D0922EE815F49189 /* Pods-FileEncryption_Demo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FileEncryption_Demo-frameworks.sh"; sourceTree = "<group>"; };
+		A86C7559BAD1631C90CFEEB7C88741A9 /* Pods-FileEncryption_Demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FileEncryption_Demo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B4690263E3C2DD3C24DEAC554FFBD486 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B58D5A0593085CA86BBEDCCFB3C9E863 /* Pods-FileEncryption_DemoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FileEncryption_DemoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		B997F89226E599D8D6693B3E13FC0794 /* RNCryptor-objc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "RNCryptor-objc.xcconfig"; sourceTree = "<group>"; };
+		C20B8F10F6359B0F42E986FD2ED5748E /* Pods-FileEncryption_DemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FileEncryption_DemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C8676DB78A3779A868584BD5FB6DB769 /* Pods-FileEncryption_DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FileEncryption_DemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		CAFD15069DBFFAF7E7CD48183E2D230C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		D5E68A11EA8C182D14BADB8DD8A12472 /* libPods-FileEncryption_DemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-FileEncryption_DemoTests.a"; path = "libPods-FileEncryption_DemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5500E0710192AE128E5D1866F5EC302 /* Pods-FileEncryption_Demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FileEncryption_Demo-dummy.m"; sourceTree = "<group>"; };
+		EF0C57A9EBE9BD3EAB61060DFD27E114 /* RNCryptorEngine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNCryptorEngine.m; path = RNCryptor/RNCryptorEngine.m; sourceTree = "<group>"; };
+		F3F66CA8DBE29C79696D1D07D51293CD /* Pods-FileEncryption_DemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FileEncryption_DemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FC9CCC345D1F4ABF3613607FFF398A6E /* RNDecryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNDecryptor.h; path = RNCryptor/RNDecryptor.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		632BDE586545E60713D2FF5078390C9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEEB5BD42F1A181BE8E87D96D0622F50 /* Foundation.framework in Frameworks */,
+				71CDB0170B0C6137EADC7F350DEF08CF /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83DF1B36111FBF8F89C9AE4C84DBDE87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D64A5CB6B2B12ADA8DA0EB1602D51F7E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A795002C263BF10AC6784170C0AEAD8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B86FBF7BE1D272691A2E733D8538C70 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F541B386C1A194EAE8246529665DE5C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69CDA4E1314AABD49FC265D6423E3F3C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22B8A8BA3D66856FCC55C27A2C5C2AAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15CB29AD4C7271D250B046F913423B85 /* libPods-FileEncryption_Demo.a */,
+				D5E68A11EA8C182D14BADB8DD8A12472 /* libPods-FileEncryption_DemoTests.a */,
+				1C53D064B5F8D9AC5A7FACC982886DC1 /* libPods-FileEncryption_DemoUITests.a */,
+				33CA92E7AB712C28C4B0783C10E9AF98 /* libRNCryptor-objc.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D61D47A1B62BC82D85F127277195053 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A3F955CFC17F78E6CC134F2E1E68AA8 /* Pods-FileEncryption_Demo */,
+				9634771C40008037C713CF251C947376 /* Pods-FileEncryption_DemoTests */,
+				33CBAD5CDCC75BDDCAB65DFD2C106C6F /* Pods-FileEncryption_DemoUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2E339049816F198EB76DEA4264EF8374 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B4690263E3C2DD3C24DEAC554FFBD486 /* Foundation.framework */,
+				CAFD15069DBFFAF7E7CD48183E2D230C /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		318E55BF7CCDC52AE3FF6FDDF09A8BE0 /* RNCryptor-objc */ = {
+			isa = PBXGroup;
+			children = (
+				81B919491992A5636B485414194FD3C0 /* RNCryptor.h */,
+				1F95572A9B4EB85564A5D9571976D1F2 /* RNCryptor.m */,
+				5DDDD6259505C41451E173458EBF3DE1 /* RNCryptor+Private.h */,
+				34E67339908E20820B18D7155044DD38 /* RNCryptorEngine.h */,
+				EF0C57A9EBE9BD3EAB61060DFD27E114 /* RNCryptorEngine.m */,
+				FC9CCC345D1F4ABF3613607FFF398A6E /* RNDecryptor.h */,
+				5B5C93F351648A950A2D5B2BBE10E5BD /* RNDecryptor.m */,
+				A62A247CE57BB9CA21519A3CDB1F1DA5 /* RNEncryptor.h */,
+				0F0376550E30F66F73C77A4552E0FCAB /* RNEncryptor.m */,
+				32BA94C8902D0BF56FA42FE2C1BCC34F /* Support Files */,
+			);
+			name = "RNCryptor-objc";
+			path = "RNCryptor-objc";
+			sourceTree = "<group>";
+		};
+		32BA94C8902D0BF56FA42FE2C1BCC34F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B997F89226E599D8D6693B3E13FC0794 /* RNCryptor-objc.xcconfig */,
+				4F3C09945AE1F134C0BACDF433FD91AB /* RNCryptor-objc-dummy.m */,
+				0C339774ECB9D8A46B2D412350A6ED16 /* RNCryptor-objc-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RNCryptor-objc";
+			sourceTree = "<group>";
+		};
+		33CBAD5CDCC75BDDCAB65DFD2C106C6F /* Pods-FileEncryption_DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3F66CA8DBE29C79696D1D07D51293CD /* Pods-FileEncryption_DemoUITests-acknowledgements.markdown */,
+				345BF440A92CA80464B745B4E631F71C /* Pods-FileEncryption_DemoUITests-acknowledgements.plist */,
+				53115C7486284E84BAE41D60BDC3D53B /* Pods-FileEncryption_DemoUITests-dummy.m */,
+				B58D5A0593085CA86BBEDCCFB3C9E863 /* Pods-FileEncryption_DemoUITests-frameworks.sh */,
+				2A27E797B952BFCA059328D5B1091F22 /* Pods-FileEncryption_DemoUITests-resources.sh */,
+				673099C1EEEF88A198898D02E0B69D28 /* Pods-FileEncryption_DemoUITests.debug.xcconfig */,
+				C20B8F10F6359B0F42E986FD2ED5748E /* Pods-FileEncryption_DemoUITests.release.xcconfig */,
+			);
+			name = "Pods-FileEncryption_DemoUITests";
+			path = "Target Support Files/Pods-FileEncryption_DemoUITests";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E339049816F198EB76DEA4264EF8374 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A3F955CFC17F78E6CC134F2E1E68AA8 /* Pods-FileEncryption_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				A86C7559BAD1631C90CFEEB7C88741A9 /* Pods-FileEncryption_Demo-acknowledgements.markdown */,
+				6EEE1AA20920244941A3629283B863CF /* Pods-FileEncryption_Demo-acknowledgements.plist */,
+				E5500E0710192AE128E5D1866F5EC302 /* Pods-FileEncryption_Demo-dummy.m */,
+				A75B53088C0A5572D0922EE815F49189 /* Pods-FileEncryption_Demo-frameworks.sh */,
+				1E043784E273F85E42418EC887BF286E /* Pods-FileEncryption_Demo-resources.sh */,
+				6305C469ADD5DD120C54F5C30950CC09 /* Pods-FileEncryption_Demo.debug.xcconfig */,
+				7FEE3FEBE66036DCEE6013CB857AB846 /* Pods-FileEncryption_Demo.release.xcconfig */,
+			);
+			name = "Pods-FileEncryption_Demo";
+			path = "Target Support Files/Pods-FileEncryption_Demo";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				E6A1441FD1E13E926EADF9F0330C42C0 /* Pods */,
+				22B8A8BA3D66856FCC55C27A2C5C2AAD /* Products */,
+				2D61D47A1B62BC82D85F127277195053 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9634771C40008037C713CF251C947376 /* Pods-FileEncryption_DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5EED0DBCD19751CB78265BD79FDD5D23 /* Pods-FileEncryption_DemoTests-acknowledgements.markdown */,
+				3A591E83D26EDAE38E7CCDF88E931234 /* Pods-FileEncryption_DemoTests-acknowledgements.plist */,
+				0A29687A727FBD39721BAFB2AC901FA5 /* Pods-FileEncryption_DemoTests-dummy.m */,
+				9DD22BDD14E023C53472FB75ADC5CD9F /* Pods-FileEncryption_DemoTests-frameworks.sh */,
+				9A58611B9DB93C4856A361BD76328CC6 /* Pods-FileEncryption_DemoTests-resources.sh */,
+				4D91B417181ED16CEFF0E10E288B21CA /* Pods-FileEncryption_DemoTests.debug.xcconfig */,
+				C8676DB78A3779A868584BD5FB6DB769 /* Pods-FileEncryption_DemoTests.release.xcconfig */,
+			);
+			name = "Pods-FileEncryption_DemoTests";
+			path = "Target Support Files/Pods-FileEncryption_DemoTests";
+			sourceTree = "<group>";
+		};
+		E6A1441FD1E13E926EADF9F0330C42C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				318E55BF7CCDC52AE3FF6FDDF09A8BE0 /* RNCryptor-objc */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A3451FF6644FCB57E7570D6F05D67848 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6913AA1EB3AE437547F6C2501A5074C /* RNCryptor+Private.h in Headers */,
+				DADF80E5877E8AF27FD1EB56619E110A /* RNCryptor.h in Headers */,
+				AD563253F8BC2070DFD2986EE09BABA4 /* RNCryptorEngine.h in Headers */,
+				B7DAC27E07C90A5AE2BFAB5E46C5534B /* RNDecryptor.h in Headers */,
+				A7E1173A84DAD9BB0461366F28205068 /* RNEncryptor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		188230E9C422D25DB4C03A4016515F3D /* RNCryptor-objc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2194115596A5603804FAE1180AB90A92 /* Build configuration list for PBXNativeTarget "RNCryptor-objc" */;
+			buildPhases = (
+				1B949D6B4E5C98F6FD5015A00070EED7 /* Sources */,
+				632BDE586545E60713D2FF5078390C9A /* Frameworks */,
+				A3451FF6644FCB57E7570D6F05D67848 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RNCryptor-objc";
+			productName = "RNCryptor-objc";
+			productReference = 33CA92E7AB712C28C4B0783C10E9AF98 /* libRNCryptor-objc.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		951AC29438E7EBA8EC907FD3CDF73460 /* Pods-FileEncryption_DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7752CAE346DD86D2898D1DE42EA63D1A /* Build configuration list for PBXNativeTarget "Pods-FileEncryption_DemoTests" */;
+			buildPhases = (
+				C2F91C718ACD325E2A5700B0A276E63D /* Sources */,
+				83DF1B36111FBF8F89C9AE4C84DBDE87 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FileEncryption_DemoTests";
+			productName = "Pods-FileEncryption_DemoTests";
+			productReference = D5E68A11EA8C182D14BADB8DD8A12472 /* libPods-FileEncryption_DemoTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DFA56965749441B5C92EF3E71F5F1E42 /* Pods-FileEncryption_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEAE7676213F3D35C67428C983B6D9AB /* Build configuration list for PBXNativeTarget "Pods-FileEncryption_Demo" */;
+			buildPhases = (
+				07560E18C85F13CDF69A60D565866CD7 /* Sources */,
+				F541B386C1A194EAE8246529665DE5C3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D60F614B0A4CEB9164AF805DA1A09183 /* PBXTargetDependency */,
+			);
+			name = "Pods-FileEncryption_Demo";
+			productName = "Pods-FileEncryption_Demo";
+			productReference = 15CB29AD4C7271D250B046F913423B85 /* libPods-FileEncryption_Demo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E1848C2E9570F628E215BA1AE1C37FA3 /* Pods-FileEncryption_DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEC7845888B6E630B175C8E8B7C29CF1 /* Build configuration list for PBXNativeTarget "Pods-FileEncryption_DemoUITests" */;
+			buildPhases = (
+				BC31BD7A7DBD3BA38CFBEA3555372522 /* Sources */,
+				A795002C263BF10AC6784170C0AEAD8E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FileEncryption_DemoUITests";
+			productName = "Pods-FileEncryption_DemoUITests";
+			productReference = 1C53D064B5F8D9AC5A7FACC982886DC1 /* libPods-FileEncryption_DemoUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 22B8A8BA3D66856FCC55C27A2C5C2AAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFA56965749441B5C92EF3E71F5F1E42 /* Pods-FileEncryption_Demo */,
+				951AC29438E7EBA8EC907FD3CDF73460 /* Pods-FileEncryption_DemoTests */,
+				E1848C2E9570F628E215BA1AE1C37FA3 /* Pods-FileEncryption_DemoUITests */,
+				188230E9C422D25DB4C03A4016515F3D /* RNCryptor-objc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07560E18C85F13CDF69A60D565866CD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D22A4253B61372EB71EA8FDAE212EEAA /* Pods-FileEncryption_Demo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B949D6B4E5C98F6FD5015A00070EED7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				541D56488B8D13700729FA4E575F27A0 /* RNCryptor-objc-dummy.m in Sources */,
+				DD50F362D0A5687D5F184109237E3492 /* RNCryptor.m in Sources */,
+				A08B544B84CDDDCE2A48AB23B9323F05 /* RNCryptorEngine.m in Sources */,
+				96C4712F798F77E5FF1F2E53CEFE5D28 /* RNDecryptor.m in Sources */,
+				DFB162A5256A64505E5D3155C3C990A9 /* RNEncryptor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC31BD7A7DBD3BA38CFBEA3555372522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				031B7DD06F585D8312D0185BD8B6EC47 /* Pods-FileEncryption_DemoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F91C718ACD325E2A5700B0A276E63D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD68CE8772BF6C78FF6ECD3FE716689A /* Pods-FileEncryption_DemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D60F614B0A4CEB9164AF805DA1A09183 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "RNCryptor-objc";
+			target = 188230E9C422D25DB4C03A4016515F3D /* RNCryptor-objc */;
+			targetProxy = 0560539FD9BAEB0AA56A764A5A80CD2B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		10134000869880CC12A5EDFBC57495EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6305C469ADD5DD120C54F5C30950CC09 /* Pods-FileEncryption_Demo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		38DFA1910FC311F726C62DA0C6747219 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 673099C1EEEF88A198898D02E0B69D28 /* Pods-FileEncryption_DemoUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F42BB341CCFB8E02F57BCCE3AE0548B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B997F89226E599D8D6693B3E13FC0794 /* RNCryptor-objc.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RNCryptor-objc/RNCryptor-objc-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		973E6770B9FCE0BE9E4E981A207F689A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D91B417181ED16CEFF0E10E288B21CA /* Pods-FileEncryption_DemoTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		97AC8477F5F8B715632E8107E9CB3AEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B997F89226E599D8D6693B3E13FC0794 /* RNCryptor-objc.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RNCryptor-objc/RNCryptor-objc-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A87E472DE7C603CAF69DBFCCA254B83B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C20B8F10F6359B0F42E986FD2ED5748E /* Pods-FileEncryption_DemoUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C61E3980F514F9A2939D7F9C99986A42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8676DB78A3779A868584BD5FB6DB769 /* Pods-FileEncryption_DemoTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F79B5AEA7EEDA55B987354BB58F0C4D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FEE3FEBE66036DCEE6013CB857AB846 /* Pods-FileEncryption_Demo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2194115596A5603804FAE1180AB90A92 /* Build configuration list for PBXNativeTarget "RNCryptor-objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F42BB341CCFB8E02F57BCCE3AE0548B /* Debug */,
+				97AC8477F5F8B715632E8107E9CB3AEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7752CAE346DD86D2898D1DE42EA63D1A /* Build configuration list for PBXNativeTarget "Pods-FileEncryption_DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				973E6770B9FCE0BE9E4E981A207F689A /* Debug */,
+				C61E3980F514F9A2939D7F9C99986A42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEC7845888B6E630B175C8E8B7C29CF1 /* Build configuration list for PBXNativeTarget "Pods-FileEncryption_DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38DFA1910FC311F726C62DA0C6747219 /* Debug */,
+				A87E472DE7C603CAF69DBFCCA254B83B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEAE7676213F3D35C67428C983B6D9AB /* Build configuration list for PBXNativeTarget "Pods-FileEncryption_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10134000869880CC12A5EDFBC57495EB /* Debug */,
+				F79B5AEA7EEDA55B987354BB58F0C4D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
